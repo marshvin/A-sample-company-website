@@ -18,6 +18,7 @@
             
          </ul>
       </nav>
+
       <body>
          <div class="motto">
             Dream <br> Build. 
@@ -25,26 +26,31 @@
              Connect.
             </div>
          </div>
-
-         <div class="login-box">
-            <h2>Login</h2>
-            <form>
-              <div class="user-box">
-                <input type="text" name="" required="">
-                <label>Username</label>
+         <div class="container">
+          <form id="form" action="/">
+              <h1>Registration</h1>
+              <div class="input-control">
+                  <label for="username">Username</label>
+                  <input id="username" name="username" type="text">
+                  <div class="error"></div>
               </div>
-              <div class="user-box">
-                <input type="password" name="" required="">
-                <label>Password</label>
+              <div class="input-control">
+                  <label for="email">Email</label>
+                  <input id="email" name="email" type="text">
+                  <div class="error"></div>
               </div>
-              <a href="#">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                Submit
-              </a>
-            </form>
-          </div>
+              <div class="input-control">
+                  <label for="password">Password</label>
+                  <input id="password"name="password" type="password">
+                  <div class="error"></div>
+              </div>
+              <div class="input-control">
+                  <label for="password2">Password again</label>
+                  <input id="password2"name="password2" type="password">
+                  <div class="error"></div>
+              </div>
+              <button type="submit">Sign Up</button>
+          </form>
+      </div>
          
       </body>
