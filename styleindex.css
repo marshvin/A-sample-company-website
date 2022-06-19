@@ -1,25 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+} 
+
 body{
-  background-image: url(farzad-nazifi-p-xSl33Wxyc-unsplash.jpg);
+  background-color: white;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .motto{
-  font-size: 50px;
+  font-size: 6vmin;
   font-weight: 900;
-  color: #ffffff;
+  color: black;
   margin-right: 2cm;
   margin-top: 2cm ;
-  text-align: right;
+  
+  
 }
 .motto2{
   color: rgb(223, 22, 22);
-  text-align: right;
+  
+  font-size: 6vmin;
 }
 .about{
   text-align: center;
-  font-size: 30px;
+  font-size: 4vmin;
   font-family: 'Times New Roman', Times, serif;
-  color: #f2f2f2;
+  color: black;
   background-color: #1b1b1b;
   margin-top: 3.5cm;
   padding-top: 1cm;
@@ -27,161 +37,8 @@ body{
   
 }
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-} 
-nav{
-  display: flex;
-  height: 80px;
-  width: 100%;
-  background: #1b1b1b;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 50px 0 100px;
-  flex-wrap: wrap;
-}
-nav .logo{
-  color: #fff;
-  font-size: 35px;
-  font-weight: 600;
-  margin-left: -40px;
-}
-nav ul{
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-}
-nav ul li{
-  margin: 0 5px;
-}
-nav ul li a{
-  color: #f2f2f2;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 500;
-  padding: 8px 15px;
-  border-radius: 5px;
-  letter-spacing: 1px;
-  transition: all 0.3s ease;
-}
-nav ul li a.active,
-nav ul li a:hover{
-  color: #111;
-  background: rgb(255, 255, 255);
-}
-nav .menu-btn i{
-  color: #fff;
-  font-size: 22px;
-  cursor: pointer;
-  display: none;
-}
-input[type="checkbox"]{
-  display: none;
-}
-@media (max-width: 1000px){
-  nav{
-    padding: 0 40px 0 50px;
-  }
-}
-@media (max-width: 920px) {
-  nav .menu-btn i{
-    display: block;
-  }
-  #click:checked ~ .menu-btn i:before{
-    content: "\f00d";
-  }
-  nav ul{
-    position: fixed;
-    top: 80px;
-    left: -100%;
-    background: #111;
-    height: 100vh;
-    width: 100%;
-    text-align: center;
-    display: block;
-    transition: all 0.3s ease;
-  }
-  #click:checked ~ ul{
-    left: 0;
-  }
-  nav ul li{
-    width: 100%;
-    margin: 40px 0;
-  }
-  nav ul li a{
-    width: 100%;
-    margin-left: -100%;
-    display: block;
-    font-size: 20px;
-    
-  }
-  #click:checked ~ ul li a{
-    margin-left: 0px;
-  }
-  nav ul li a.active,
-  nav ul li a:hover{
-    background: none;
-    color: rgb(240, 154, 25);
-  }
-} 
 
-#form {
-  width: 300px;
-  padding: 40px;
-  text-align: left;
-  background-color: whitesmoke;
-  border-radius: 4px;
-  font-size: 12px;
-  margin-top: 2cm;
-  
-}
-
-#form h1 {
-  color: #0f2027;
-  text-align: center;
-}
-
-#form button {
-  padding: 10px;
-  margin-top: 10px;
-  width: 100%;
-  color: white;
-  background-color: rgb(201, 54, 61);
-  border: none;
-  border-radius: 4px;
-}
-
-.input-control {
-  display: flex;
-  flex-direction: column;
-}
-
-.input-control input {
-  border: 2px solid #f0f0f0;
-border-radius: 4px;
-display: block;
-font-size: 12px;
-padding: 10px;
-width: 100%;
-}
-
-.input-control input:focus {
-  outline: 0;
-}
-
-.input-control.success input {
-  border-color: #09c372;
-}
-
-.input-control.error input {
-  border-color: #ff3860;
-}
-
-.input-control .error {
-  color: #ff3860;
-  font-size: 9px;
-  height: 13px;
+.info{
+  font-size: 1cm;
+  color: black;
 }
