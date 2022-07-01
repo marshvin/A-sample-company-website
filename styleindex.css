@@ -42,3 +42,6 @@ body{
   font-size: 1cm;
   color: black;
 }
+.bg-color{
+  background-color: #36fa9f !important;
+}
