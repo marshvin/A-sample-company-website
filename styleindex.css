@@ -1,3 +1,4 @@
+
 *{
   margin: 0;
   padding: 0;
@@ -21,7 +22,7 @@ body{
   
 }
 .motto2{
-  color: rgb(223, 22, 22);
+  color: rgb(236, 170, 27);
   
   font-size: 6vmin;
 }
@@ -43,5 +44,41 @@ body{
   color: black;
 }
 .bg-color{
-  background-color: #36fa9f !important;
+  background-color: #eca305 !important;
+
+}
+a.active,a:hover{
+  color: #fdfdfd!important;
+ 
+}
+.btn-color{
+  background: rgb(10, 10, 10)!important;
+  border: 1px solid #0a0a0a!important;
+  border-radius: 50px!important;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px!important;
+  width: 40vmin;
+
+  color: #fdf9f9!important;
+  
+  display: inline-block!important;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif!important;
+  font-size: 16px!important;
+  font-weight: 900!important;
+  line-height: 16px!important;
+  min-height: 40px!important;
+  outline: 0!important;
+  padding: 12px 14px!important;
+  margin-left: 5cm;
+  
+
+}
+.btn-color:hover,
+.btn-color:active {
+  background-color: initial !important;
+  background-position: 0 0 !important;
+  color: rgb(15, 15, 15)!important;
+}
+
+.btn-color:active {
+  opacity: .5!important;
 }
