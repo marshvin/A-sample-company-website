@@ -16,35 +16,27 @@ body{
   font-size: 6vmin;
   font-weight: 900;
   color: black;
-  margin-right: 2cm;
-  margin-top: 2cm ;
+  margin-left: 2cm;
+  margin-top: 2cm;
   
   
 }
 .motto2{
   color: rgb(236, 170, 27);
-  
+  margin-left: 2cm;
   font-size: 6vmin;
-}
-.about{
-  text-align: center;
-  font-size: 4vmin;
-  font-family: 'Times New Roman', Times, serif;
-  color: black;
-  background-color: #1b1b1b;
-  margin-top: 3.5cm;
-  padding-top: 1cm;
-  padding-bottom: 1cm;
-  
+  font-weight: 600;
 }
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
 .info{
-  font-size: 1cm;
+  font-size: 6vmin;
   color: black;
+  margin-left: 2cm;
 }
 .bg-color{
   background-color: #eca305 !important;
+  padding: 20px !important;
 
 }
 a.active,a:hover{
@@ -68,8 +60,7 @@ a.active,a:hover{
   min-height: 40px!important;
   outline: 0!important;
   padding: 12px 14px!important;
-  margin-left: 5cm;
-  
+  margin-left: 2cm;
 
 }
 .btn-color:hover,
