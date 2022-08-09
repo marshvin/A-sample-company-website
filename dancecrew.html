@@ -4,15 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS with w3school-- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- CSS with Bootstrap-- -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="static/css/view-profile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylelogin.css">
+    <link rel="stylesheet" href="styleindex.css"/>
+    <link rel="stylesheet" href="viewprofile.css">
     <title>View Profile</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg bg-color">
+        <div class="container-fluid">
+           <span class="navbar-brand mb-0 h1">ShowUP</span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Log in</a>
+              </li>
+              <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   Discover
+                 </a>
+                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Music</a></li>
+                    <li><a class="dropdown-item" href="#">Dance</a></li>
+                    <li><a class="dropdown-item" href="#">Poetry</a></li>
+                 </ul>
+               </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     <!--Picture ,name-->
     <section id="profile" class="p-4 p-lg-0 pt-lg-3 text-center text-sm-start">
         
@@ -22,7 +60,7 @@
                     <img src="https://randomuser.me/api/portraits/women/3.jpg" class="rounded-circle mb-3 img-fluid" alt="">
                 </div> 
                 <div class="col-md pt-md-3 p-md-5 chef" >
-                    <p style="font-size: 1.5rem; color:black">Razor Dance crew</p>
+                    <p style="font-size: 1.5rem; color:black">Razor Dancecrew <i class="bi bi-patch-check-fill" style="color:blue;"></i></p>
                     <p><i class="bi bi-geo-alt-fill" style="font-size: 1.5rem; color:black">Nairobi,Kenya</i></p>
                     
                 </div>
@@ -44,7 +82,11 @@
                             <p>Total Gigs</p>
                         </div>
                         <div class ="col">
-                            <h5>11344</h5>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
                             <p>Ratings</p>
                         </div>
                     </div>
@@ -55,20 +97,13 @@
                                 <h5 class="headings">Languages</h5>
                             </div>
                             <div id="list" class="col-md-12">
-                                    English: Fluent <i class="bi bi-patch-check-fill" style="color:blue;"></i>
-                                    Swahili:Fluent  <i class="bi bi-patch-check-fill" style="color:blue;"></i>
-                                    Italian:Fluent  <i class="bi bi-patch-check-fill" style="color:blue;"></i>
+                                    English: Fluent <br>
+                                    Swahili: Fluent  
+                                    
                             </div>
                         </div>
                     </div>
-                    <div class="row pt-3 border-bottom" id="education">
-                        <div class="col-12">
-                            <div class="col-4">
-                                <h5 class="headings">Education</h5>
-                            </div>
-                            
-                        </div>
-                    </div>
+                    
                     <div class="row pt-3" id="contacts">
                         <div class="col-12">
                             <div class="col-5">
@@ -81,9 +116,9 @@
                                 </ul>
                             </div> 
                             <div class="col-md-12 col-sm-5">
-                                <a href="https://www.instagram.com/marsh_vin/" target="_blank"<i class="bi bi-instagram" style="color: rgb(109, 201, 147 ); font-size: 2.0rem; margin-right:5%;"></i></a>
-                                <a href="https://twitter.com/VinnyM_Kenya" target="_blank" <i class="bi bi-twitter" style="color: rgb(29 161 242); font-size: 2.0rem;"></i></a>
-                                <a href="#" target="_blank"><i class="bi bi-linkedin mx-1" style="color: rgb(14, 163, 255); font-size: 2.0rem;"></i></a>
+                                <a href="https://www.instagram.com/marsh_vin/" target="_blank"<i class="bi bi-instagram" style="color: black; font-size: 2.0rem; margin-right:5%;"></i></a>
+                                <a href="https://twitter.com/VinnyM_Kenya" target="_blank" <i class="bi bi-twitter" style="color: black; font-size: 2.0rem;"></i></a>
+                                <a href="#" target="_blank"><i class="bi bi-linkedin mx-1" style="color: black; font-size: 2.0rem;"></i></a>
                             </div>
                                
                         </div>  
@@ -92,20 +127,18 @@
                 <div class="col-md-8 border border-right-0 " style="text-align:start;">
                     <div class="row border-bottom pt-3">
                         <div class="col">
-                            <h5 class="headings">Work Experience</h5>
+                            <h5 class="headings">Our Background</h5>
                             <p>I have worked across different major hotels in Kenya. I worked at Serena Hotel for 5 years. 
                                 Have worked at Hilton Hotel for 2 years. I have worked at the Hotel of the Future for 1 year.
                                 Even though my speciliaty is cooking Japanese Food i'm also a guru when it comes to cooking African foods. I have also had part time job as a personal chef in Lyon, France for 2 years. Currently i work at Taidys Hotel.
                             </p>
                         </div>
                     </div>
-                    <div class="row">
-
-                    </div>
+      
                     <div class="row pt-3">
                         <div class="col ">
                             <div>
-                                <h5 class="headings">About Me</h5>
+                                <h5 class="headings">About Us</h5>
                             </div>
                             <div class="d-sm-flex justify-content-between">
                                 <p cl>I am a 42 year old chef with 22 years of experience. Having worked with major brands both in Kenya and also in Europe. I am a married man with a beautiful wife and three kids. A devoted christian. During my free time i like to spend time with my family, my children really enjoy cooking and that makes me a proud father.I also enjoy travelling.In the course of my career I have travelled to different countries both as work duty and also as a vacation with my family. To put it simply i'm just a christian man who loves cooking and his family.<3 </p>
