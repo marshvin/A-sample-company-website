@@ -10,8 +10,7 @@
 }
 
 body {
-    min-height: 100vh;
-    background: linear-gradient(to bottom, #000428, #004683);
+   background-color: white;
 }
 
 .container {
