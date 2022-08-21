@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .container .row .col-lg-4 {
@@ -28,8 +28,8 @@ body {
     margin: 0 !important;
     border-radius: 20px;
     overflow: hidden;
-    max-width: 280px;
-    max-height: 340px;
+    max-width: 700px;
+    max-height: 260px;
     cursor: pointer;
     border: none;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -51,8 +51,8 @@ body {
     position: absolute;
     bottom: -180px;
     color: #fff;
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(15px);
+    background: goldenrod;
+    
     min-height: 140px;
     width: 100%;
     transition: bottom .4s ease-in;
@@ -96,25 +96,7 @@ body {
 }
 
 
-.card .card-content .social-icons li {
-    margin: 10px;
-    transition: 0.5s;
-    transition-delay: calc(0.15s * var(--i));
-    transform: translateY(50px);
-}
 
-
-.card:hover .card-content .social-icons li {
-    transform: translateY(20px);
-}
-
-.card .card-content .social-icons li a {
-    color: #fff;
-}
-
-.card .card-content .social-icons li a span {
-    font-size: 1.3rem;
-}
 
 @media(max-width: 991.5px) {
     .container {
