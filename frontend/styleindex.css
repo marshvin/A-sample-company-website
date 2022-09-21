@@ -16,19 +16,16 @@ body{
   font-size: 6vmin;
   font-weight: 900;
   color: black;
+
    
 }
 .motto2{
-  color: white;
+  font-size: 6vmin;
+  font-weight: 900;
+  color: rgb(218, 20, 20);
 }
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
-.info{
-  font-size: 6vmin;
-  color: black;
-  margin-left: 2cm;
-  font-weight: 700;
-}
 .bg-color{
   background-color: #eca305 !important;
   padding: 20px !important;
