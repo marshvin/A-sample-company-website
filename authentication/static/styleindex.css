@@ -151,7 +151,7 @@ button {
 	height: 90px;
 	cursor: pointer;
 	font-size:02px;
-	
+	text-decoration: none;
 	color: black;
 	background: white;
 	border: px solid black;
